@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(43, 25, 80, 0.778);
+    background-color: rgba(52, 212, 76, 0.594);
     margin: 0px;
     padding: 0px;
 align-content: center;
@@ -58,9 +58,15 @@ label{
     color:whitesmoke;
 }
 p{
+    color: whitesmoke;
 text-align: center;    
 }
 #log-button > a{
     color: whitesmoke;
     text-decoration: none;
+}
+a{
+    
+    text-decoration: none;
+    color: white;
 }
