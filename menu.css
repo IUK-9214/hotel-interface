@@ -4,7 +4,12 @@
     font-family: 'Times New Roman', Times, serif;
     overflow-x: hidden;
 }
-
+:root{
+--color:blue;
+--seccolor:white;
+--tercolor:brown;
+--qucolor:red;
+}
 body {
     background-color: black;
     height: 200vh; /* Ensures there's enough content to scroll */
@@ -81,7 +86,7 @@ ul > li {
 .foodview{
     position: absolute;
 left:58vh;
-top: 20vh;
+top: 16vh;
     height: 50vh;
     width: 20%;
     background-color: azure;
@@ -89,7 +94,7 @@ top: 20vh;
 .foodview1{
     position: absolute;
 left:108vh;
-top: 20vh;
+top: 16vh;
     height: 50vh;
     width: 20%;
     background-color: rgb(26, 107, 107);
@@ -97,7 +102,7 @@ top: 20vh;
 .foodview2{
     position: absolute;
 left:108vh;
-top: 80vh;
+top: 73vh;
     height: 50vh;
     width: 20%;
     background-color: rgb(16, 23, 146);
@@ -105,7 +110,7 @@ top: 80vh;
 .foodview3{
     position: absolute;
 left:58vh;
-top: 80vh;
+top: 73vh;
     height: 50vh;
     width: 20%;
     background-color: rgb(26, 107, 107);
@@ -113,7 +118,7 @@ top: 80vh;
 .foodview4{
     position: absolute;
 left:108vh;
-top: 140vh;
+top: 130vh;
     height: 50vh;
     width: 20%;
     background-color: rgb(26, 107, 107);
@@ -121,7 +126,7 @@ top: 140vh;
 .foodview5{
     position: absolute;
 left:58vh;
-top: 140vh;
+top: 130vh;
     height: 50vh;
     width: 20%;
     background-color: rgb(26, 107, 107);
